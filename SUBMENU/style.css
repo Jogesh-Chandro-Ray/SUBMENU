@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.container{
+    background-color: red;
+padding: 2%;
+font-size: 29px;
+}
+.container ul li{
+    display: inline-block;
+    margin-left: 2%;
+}
+ul li a{
+    text-decoration: none;
+    padding: 2px 4px;
+
+}
+ul li a:hover{
+    background-color: white;
+    color: red;
+}
+.subcontainer1{
+    display: none;
+    position: absolute;
+}
+.con:hover .subcontainer1 {
+    display: block;
+    background-color: red;
+   
+}
+.con:hover .subcontainer1 ul li{
+    display: block;
+  padding: 10px;
+}
+.con:hover .subcontainer1 ul:first-child{
+    margin-top: 35px;
+
+}
+.con:hover .subcontainer1 ul{
+    background-color: transparent;
+}
+.subcontainer1 ul li:hover{
+    background-color: black;
+}
+.subcontainer1 ul li a:hover{
+    background-color: black;
+    color: white;
+}
+.subcontainer2{
+    display: none;
+}
+.Tutorials:hover .subcontainer2{
+    display: block;
+    background-color: white;
+    margin-left: 90%;
+    margin-top: -60%;
+    position: absolute;
+}
+.Tutorials:hover .subcontainer2 ul li{
+    background-color: red;
+}
+.Tutorials:hover .subcontainer2 ul li:hover{
+    
+    background-color:black;
+}
+.Tutorials:hover .subcontainer2 ul li a{
+  
+}
